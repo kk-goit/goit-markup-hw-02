@@ -1,0 +1,67 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    /* colors */
+    --main-acent: #2E2F42;
+    --logo-acent: #4D5AE5;
+    --main-text: #434455;
+    --section-main-text: #FFFFFF;
+
+    --bg-main: #e5e5e5;
+    --bg-head: #E7E9FC;
+    --bg-section-main: #2E2F42;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-text);
+    background-color: var(--bg-main);
+    line-height: 1.7;
+}
+
+header {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    background-color: var(--bg-head);
+    color: var(--main-acent);
+}
+.header-nav {
+    font-size: 16px;
+}
+.header-nav-link {
+    color: var(--main-acent);
+    text-decoration: none;
+}
+.header-addr-link {
+    color: var(--main-text);
+    text-decoration: none;
+}
+.header-addr-link:hover {
+    color: var(--main-text);
+    text-decoration: underline;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo span {
+    color: var(--logo-acent);
+}
+
+h1 {
+    font-size: 56px;
+}
+
+#main {
+    color: var(--section-main-text);
+    background-color: var(--bg-section-main);
+}
+.sect-main-botton {
+    color: var(--section-main-text);
+    background-color: var(--logo-acent);
+    font-size: 16px;
+    cursor: pointer;
+}

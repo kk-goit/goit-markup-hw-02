@@ -12,7 +12,7 @@
     --bg-global: #FFFFF1;
     --bg-main: #e5e5e5;
     --bg-head: #E7E9FC;
-    --bg-section-main: #2E2F42;
+    --bg-accent: var(--main-acent);
 }
 
 body {
@@ -37,6 +37,10 @@ header {
 .header-nav-link {
     color: var(--main-acent);
     text-decoration: none;
+}
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: var(--head-hover);
 }
 .header-addr {
     font-style: normal;
@@ -72,13 +76,22 @@ h1 {
     font-size: 56px;
 }
 
-#main {
+.sect-main {
     color: var(--section-main-text);
-    background-color: var(--bg-section-main);
+    background-color: var(--bg-accent);
 }
 .sect-main-botton {
     color: var(--section-main-text);
     background-color: var(--logo-acent);
     font-size: 16px;
     cursor: pointer;
+}
+
+.footer {
+    background-color: var(--bg-accent);
+}
+.footer-text {
+    line-height: 1.5;
+    color: var(--foot-acent);
+    letter-spacing: 0.02em;
 }

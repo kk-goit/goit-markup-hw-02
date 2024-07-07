@@ -14,6 +14,7 @@
     --bg-main: #e5e5e5;
     --bg-head: #E7E9FC;
     --bg-accent: var(--main-acent);
+    --bg-team: var(--foot-acent);
 }
 
 body {
@@ -75,16 +76,28 @@ header {
 
 h1 {
     font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
 }
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
 
 .sect-main {
     color: var(--section-main-text);
     background-color: var(--bg-accent);
 }
 .sect-main-h1 {
-    line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
+    line-height: 1.07;
 }
 .sect-main-botton {
     color: var(--section-main-text);
@@ -100,18 +113,33 @@ h1 {
     background-color: var(--main-hover);
 }
 
-.sect-studio-h1 {
-    font-size: 20px;
-    font-weight: 500;
+.sect-h3 {
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: var(--main-acent);
 }
+
 .sect-studio-list {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
+.sect-team {
+    background-color: var(--bg-team);
+}
+.sect-team-h2 {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--main-acent);
+}
+.sect-team-list-itm {
+    background-color: #FFFFFF;
+}
+.sect-team-list-itm p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .footer {
     background-color: var(--bg-accent);

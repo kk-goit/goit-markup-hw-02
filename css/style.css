@@ -5,6 +5,7 @@
     --main-acent: #2E2F42;
     --logo-acent: #4D5AE5;
     --head-hover: #404bbf;
+    --main-hover: var(--head-hover);
     --foot-acent: #F4F4FD;
     --main-text: #434455;
     --section-main-text: #FFFFFF;
@@ -80,12 +81,37 @@ h1 {
     color: var(--section-main-text);
     background-color: var(--bg-accent);
 }
+.sect-main-h1 {
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
 .sect-main-botton {
     color: var(--section-main-text);
     background-color: var(--logo-acent);
     font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
+.sect-main-botton:hover,
+.sect-main-botton:focus {
+    background-color: var(--main-hover);
+}
+
+.sect-studio-h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-acent);
+}
+.sect-studio-list {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 
 .footer {
     background-color: var(--bg-accent);

@@ -7,6 +7,7 @@
     --main-text: #434455;
     --section-main-text: #FFFFFF;
 
+    --bg-global: #FFFFF1;
     --bg-main: #e5e5e5;
     --bg-head: #E7E9FC;
     --bg-section-main: #2E2F42;
@@ -15,7 +16,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--main-text);
-    background-color: var(--bg-main);
+    background-color: var(--bg-global);
     line-height: 1.7;
 }
 
@@ -42,13 +43,16 @@ header {
 }
 
 .logo {
+    color: var(--logo-acent);
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
 .logo span {
-    color: var(--logo-acent);
+    color: var(--main-acent);
 }
 
 h1 {

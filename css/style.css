@@ -4,6 +4,8 @@
     /* colors */
     --main-acent: #2E2F42;
     --logo-acent: #4D5AE5;
+    --head-hover: #404bbf;
+    --foot-acent: #F4F4FD;
     --main-text: #434455;
     --section-main-text: #FFFFFF;
 
@@ -23,27 +25,35 @@ body {
 header {
     font-family: var(--secondary-font);
     font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     background-color: var(--bg-head);
     color: var(--main-acent);
 }
 .header-nav {
-    font-size: 16px;
+    font-weight: 500;
 }
 .header-nav-link {
     color: var(--main-acent);
     text-decoration: none;
 }
+.header-addr {
+    font-style: normal;
+}
 .header-addr-link {
     color: var(--main-text);
     text-decoration: none;
 }
-.header-addr-link:hover {
-    color: var(--main-text);
+.header-addr-link:hover,
+.header-addr-link:focus {
+    color: var(--head-hover);
     text-decoration: underline;
 }
 
 .logo {
     color: var(--logo-acent);
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -51,8 +61,11 @@ header {
     text-transform: uppercase;
     text-decoration: none;
 }
-.logo span {
+.main-logo-span {
     color: var(--main-acent);
+}
+.foot-logo-span {
+    color: var(--foot-acent);
 }
 
 h1 {

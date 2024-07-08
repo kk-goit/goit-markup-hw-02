@@ -21,22 +21,29 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--main-text);
     background-color: var(--bg-global);
-    line-height: 1.7;
+}
+ul {
+    list-style: none;
 }
 
-header {
+.header {
+    background-color: var(--bg-head);
+}
+.header-nav {
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-acent);
+}
+.header-nav-link {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: var(--bg-head);
-    color: var(--main-acent);
-}
-.header-nav {
-    font-weight: 500;
-}
-.header-nav-link {
     color: var(--main-acent);
     text-decoration: none;
 }
@@ -46,6 +53,7 @@ header {
 }
 .header-addr {
     font-style: normal;
+    line-height: 1.7;
 }
 .header-addr-link {
     color: var(--main-text);
@@ -74,28 +82,29 @@ header {
     color: var(--foot-acent);
 }
 
-h1 {
+/* headers */
+.lvl-one {
     font-size: 56px;
-    font-weight: 700;
     letter-spacing: 0.02em;
 }
-h2 {
+.lvl-two {
     font-size: 36px;
-    font-weight: 700;
     letter-spacing: 0.02em;
 }
-h3 {
+.lvl-three {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: var(--main-acent);
 }
 
-
+/* sections */
 .sect-main {
     color: var(--section-main-text);
     background-color: var(--bg-accent);
 }
-.sect-main-h1 {
+.sect-main-header {
     text-align: center;
     line-height: 1.07;
 }
@@ -113,11 +122,6 @@ h3 {
     background-color: var(--main-hover);
 }
 
-.sect-h3 {
-    line-height: 1.2;
-    color: var(--main-acent);
-}
-
 .sect-studio-list {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -126,13 +130,14 @@ h3 {
 .sect-team {
     background-color: var(--bg-team);
 }
-.sect-team-h2 {
+.sect-team-header {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     color: var(--main-acent);
 }
 .sect-team-list-itm {
+    line-height: 1.7;
     background-color: #FFFFFF;
 }
 .sect-team-txt {
@@ -141,7 +146,7 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-.sect-portfolio-h2 {
+.sect-portfolio-header {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;

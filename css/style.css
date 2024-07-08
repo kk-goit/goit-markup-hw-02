@@ -95,7 +95,7 @@ h3 {
     color: var(--section-main-text);
     background-color: var(--bg-accent);
 }
-.sect-main-h1 {
+.sect-main-header {
     text-align: center;
     line-height: 1.07;
 }
@@ -113,7 +113,7 @@ h3 {
     background-color: var(--main-hover);
 }
 
-.sect-h3 {
+.sect-txt-header {
     line-height: 1.2;
     color: var(--main-acent);
 }
@@ -126,7 +126,7 @@ h3 {
 .sect-team {
     background-color: var(--bg-team);
 }
-.sect-team-h2 {
+.sect-team-header {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
@@ -141,7 +141,7 @@ h3 {
     letter-spacing: 0.02em;
 }
 
-.sect-portfolio-h2 {
+.sect-portfolio-header {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
